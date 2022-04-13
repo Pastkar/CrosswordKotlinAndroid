@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg_main_page">
+
+    <com.example.crosswordkotlin.CustomViewCoinHint
+        android:id="@+id/coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="42dp"
+        app:CNText="5"
+        app:CNImage="@drawable/ic_coin"/>
+
+    <com.example.crosswordkotlin.CustomViewCoinHint
+        android:id="@+id/customViewCoinHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        app:CNImage="@drawable/ic_hint"
+        app:CNText="55"
+        app:layout_constraintStart_toEndOf="@+id/coin"
+        app:layout_constraintTop_toTopOf="@+id/coin" />
+
+    <ImageButton
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="12dp"
+        android:padding="7dp"
+        android:background="@drawable/bcg_btn_standart_selector"
+        android:src="@drawable/ic_setting"
+        app:layout_constraintBottom_toBottomOf="@+id/customViewCoinHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/customViewCoinHint" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.widget.Button
+            android:id="@+id/standard"
+            android:layout_width="266dp"
+            android:layout_height="45dp"
+            android:background="@drawable/bcg_btn_standart_selector"
+            android:fontFamily="@font/arvo"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <android.widget.Button
+            android:id="@+id/standard1"
+            android:layout_width="266dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bcg_btn_standart_selector"
+            android:fontFamily="@font/arvo"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

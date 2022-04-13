@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="0"
+        android:startColor="@color/gradient_btn_start_end_standart_pressed"
+        android:endColor="@color/gradient_btn_start_end_standart_pressed"
+        android:centerColor="@color/gradient_btn_center_standart_pressed"/>
+    <corners android:radius="@dimen/radius_btn_save_sent"/>
+    <stroke  android:color="@color/color_border_btn"
+        android:width="@dimen/border_btn_save_sent"/>
+</shape>

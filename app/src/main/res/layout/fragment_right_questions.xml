@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:gravity="end"
+    android:layout_height="match_parent">
+    <com.example.crosswordkotlin.BcgQuestionView
+        android:id="@+id/right_bcg_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:LeftSide="false"
+        app:BcgColor="@color/color_bcg_fragment_questions"
+        app:BorderColor="@color/white"
+        app:BorderWidth="1dp"
+        />
+</LinearLayout>

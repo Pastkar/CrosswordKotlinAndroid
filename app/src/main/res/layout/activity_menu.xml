@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/left_landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left landscape"
+        app:layout_constraintEnd_toEndOf="@+id/right_landscape"
+        app:layout_constraintTop_toBottomOf="@+id/right_landscape" />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keyboard "
+        app:layout_constraintEnd_toStartOf="@+id/portrait"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circleKeyboardPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="circle keyboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/portrait" />
+    <Button
+        android:id="@+id/portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="portrait"
+        app:layout_constraintEnd_toStartOf="@+id/right_landscape"
+        app:layout_constraintStart_toEndOf="@+id/nextPage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/right_landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right landscape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/portrait"
+        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

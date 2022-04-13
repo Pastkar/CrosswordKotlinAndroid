@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_fragment_question">40dp</dimen>
+
+    <dimen name="keyboard_text_size">18dp</dimen>
+    <dimen name="margin_between_button_width">5dp</dimen>
+    <dimen name="margin_between_button_height">10dp</dimen>
+    <dimen name="btn_keyboard_height">40dp</dimen>
+    <dimen name="btn_keyboard_width">30dp</dimen>
+
+    <dimen name="radius_btn_save_sent">75dp</dimen>
+    <dimen name="radius_btn_setting">34dp</dimen>
+    <dimen name="radius_bcg_keyboard">24dp</dimen>
+    <dimen name="radius_keyboard_btn_setting">4dp</dimen>
+    <dimen name="radius_bcg_circle_keyboard">4dp</dimen>
+    <dimen name="radius_button_circle_keyboard">10dp</dimen>
+    <dimen name="border_btn_setting">1dp</dimen>
+    <dimen name="border_btn_save_sent">2dp</dimen>
+    <dimen name="height_btn_save_sent">28dp</dimen>
+    <dimen name="width_btn_save_sent">112dp</dimen>
+
+    <dimen name="height_questions_side_view_portrait">80dp</dimen>
+    <dimen name="width_questions_side_view_portrait">20dp</dimen>
+    <dimen name="padding_line_questions_view_portrait"></dimen>
+    <dimen name="height_questions_side_view_landscape">43dp</dimen>
+    <dimen name="width_questions_side_view_landscape">20dp</dimen>
+    <dimen name="padding_line_questions_view_landscape"></dimen>
+
+    <dimen name="border_side_question_view">1dp</dimen>
+
+    <dimen name="margin_top_guestions_view">56dp</dimen>
+    <dimen name="margin_top_questions_btn_landscape">20dp</dimen>
+</resources>

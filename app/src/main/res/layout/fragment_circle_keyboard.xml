@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:background="#3974b3"
+    android:paddingBottom="10dp"
+    android:layout_height="match_parent">
+
+    <com.example.crosswordkotlin.CircleKeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#99062236"
+
+        app:CKTextFont="@font/arvo"
+        app:CKLineColor="#000000"
+        app:CKLineWidth="3dp"
+        app:CKTextColor="@color/white"
+        app:CKBcgCircleColor="@color/color_bcg_circle_keyboard"
+        app:CKBcgCircleWidth="@dimen/radius_bcg_circle_keyboard"
+        app:CKRadiusCircleKeyboardButton="@dimen/radius_button_circle_keyboard"
+        app:CKButtonBorderColor="@color/color_border_btn"
+        app:CKButtonBorderWidth="@dimen/border_btn_save_sent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <Button
+        android:id="@+id/btn_left_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard"
+        app:layout_constraintEnd_toStartOf="@+id/btn_center_orientation"
+        app:layout_constraintStart_toStartOf="@+id/keyboard" />
+
+    <Button
+        android:id="@+id/btn_center_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard"
+        app:layout_constraintEnd_toStartOf="@+id/btn_right_orientation"
+        app:layout_constraintStart_toEndOf="@+id/btn_left_orientation" />
+
+    <Button
+        android:id="@+id/btn_right_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard"
+        app:layout_constraintEnd_toEndOf="@+id/keyboard"
+        app:layout_constraintStart_toEndOf="@+id/btn_center_orientation" />
+
+    <Button
+        android:id="@+id/btn_change_param"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change param keyboard"
+        app:layout_constraintBottom_toTopOf="@+id/btn_center_orientation"
+        app:layout_constraintEnd_toEndOf="@+id/btn_center_orientation"
+        app:layout_constraintStart_toStartOf="@+id/btn_center_orientation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

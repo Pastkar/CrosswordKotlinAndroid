@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_btn_save_sent_not_pressed"/>
+    <corners android:radius="@dimen/radius_btn_save_sent"/>
+    <stroke  android:color="@color/color_border_btn"
+        android:width="@dimen/border_btn_save_sent"/>
+</shape>

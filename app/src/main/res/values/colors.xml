@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_bcg_circle_keyboard">#1AFFFFFF</color>
+    <color name="color_btn_save_sent_not_pressed">#1F4772</color>
+    <color name="gradient_btn_start_save_sent_pressed">#3E7FC5</color>
+    <color name="gradient_btn_end_save_sent_pressed">#1F4772</color>
+    <color name="gradient_btn_start_setting_pressed">#B36F96E0</color>
+    <color name="gradient_btn_end_setting_pressed">#B3142F64</color>
+    <color name="gradient_btn_start_end_standart_pressed">#80000000</color>
+    <color name="gradient_btn_center_standart_pressed">#00000000</color>
+    <color name="gradient_btn_start_buy_not_pressed">#9909A374</color>
+    <color name="gradient_btn_end_buy_not_pressed">#9900FFC2</color>
+    <color name="gradient_btn_start_buy_pressed">#CC09A374</color>
+    <color name="gradient_btn_end_buy_pressed">#CC00FFC2</color>
+    <color name="gradient_keyboard_btn_start_pressed">#802D78B0</color>
+    <color name="gradient_keyboard_btn_end_pressed">#80000204</color>
+    <color name="gradient_keyboard_btn_start_not_pressed">#80133650</color>
+    <color name="gradient_keyboard_btn_end_not_pressed">#80000204</color>
+    <color name="color_border_btn">#7BB5F4</color>
+    <color name="color_btn_standart">#80000000</color>
+    <color name="color_bcg_keyboard">#99062236</color>
+    <color name="color_bcg_fragment_questions">#1f4772</color>
+    <color name="color_bcg_coin_hint">#99031322</color>
+</resources>

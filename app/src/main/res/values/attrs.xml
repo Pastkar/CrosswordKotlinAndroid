@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Keyboard">
+        <attr name="padding_top" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircleKeyboardView">
+        <attr name="CKLineColor" format="color" />
+        <attr name="CKLineWidth" format="dimension" />
+        <attr name="CKTextColor" format="color" />
+        <attr name="CKTextFont" format="integer" />
+        <attr name="CKBcgCircleWidth" format="dimension" />
+        <attr name="CKBcgCircleColor" format="color" />
+        <attr name="CKRadiusCircleKeyboardButton" format="dimension" />
+        <attr name="CKButtonBorderColor" format="color" />
+        <attr name="CKButtonBorderWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SideQuestionsView">
+        <attr name="SQLeftSide" format="boolean" />
+        <attr name="SQLineWidth" format="dimension"/>
+        <attr name="SQBcgColor" format="color" />
+        <attr name="SQLineColor" format="color"/>
+        <attr name="SQPaddingLine" format="dimension"/>
+        <attr name="SQBorderWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="BcgQuestionView">
+        <attr name="BcgColor" format="color" />
+        <attr name="BorderWidth" format="dimension"/>
+        <attr name="BorderColor" format="color"/>
+        <attr name="LeftSide" format="boolean" />
+        <attr name="RadiusBorder" format="dimension"/>
+        <attr name="ClearLineWidth" format="dimension"/>
+        <attr name="CustomMarginBottom" format="dimension" />
+        <attr name="CustomMarginTop" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CustomViewCoinHint">
+        <attr name="CNImage" format="reference"/>
+        <attr name="CNText" format="string"/>
+    </declare-styleable>
+</resources>

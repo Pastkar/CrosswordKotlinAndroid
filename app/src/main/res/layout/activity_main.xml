@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3974b3">
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/width_btn_save_sent"
+        android:layout_height="@dimen/height_btn_save_sent"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background = "@drawable/bcg_btn_save_sent_selector"
+        android:fontFamily="@font/arvo"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/setting_button"
+        android:layout_width="@dimen/width_btn_save_sent"
+        android:layout_height="@dimen/height_btn_save_sent"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background = "@drawable/bcg_btn_setting_selector"
+        android:fontFamily="@font/arvo"
+        android:textColor="@color/white"
+        />
+
+    <android.widget.Button
+        android:id="@+id/standard"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background = "@drawable/bcg_btn_standart_selector"
+        android:fontFamily="@font/arvo"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.example.crosswordandroid.CircleKeyboardView
+        android:id="@+id/circle_keyboard"
+        android:background="@color/color_bcg_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:CKTextFont="@font/arvo"
+        app:CKLineColor="#000000"
+        app:CKLineWidth="3dp"
+        app:CKTextColor="@color/white"
+        app:CKBcgCircleColor="@color/color_bcg_circle_keyboard"
+        app:CKBcgCircleWidth="@dimen/radius_bcg_circle_keyboard"
+        app:CKRadiusCircleKeyboardButton="@dimen/radius_button_circle_keyboard"
+        app:CKButtonBorderColor="@color/color_border_btn"
+        app:CKButtonBorderWidth="@dimen/border_btn_save_sent"
+        />
+</LinearLayout>
